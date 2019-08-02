@@ -12,25 +12,25 @@ function App() {
       <div className="wrapper">
         <div className="header">
         <ul className="nav-bar">
-          <li className="icons">
+          <li className="icons-list">
               <a href="" target="blank"><FontAwesomeIcon icon='home' />
-              <span>Home</span></a>
+              <span className="icons">Home</span></a>
           </li>
-          <li className="icons">
+          <li className="icons-list">
               <a href=""><FontAwesomeIcon icon='user' />
-              <span>Profile</span></a>
+              <span className="icons">Profile</span></a>
           </li>
-          <li className="icons">
+          <li className="icons-list">
               <a href=""><FontAwesomeIcon icon='images  ' />
-              <span>Galleries</span></a>
+              <span className="icons">Galleries</span></a>
           </li>
-          <li className="icons">
+          <li className="icons-list">
               <a href=""><FontAwesomeIcon icon='address-card' />
-              <span>About Us</span></a>
+              <span className="icons">About Us</span></a>
           </li>
-          <li className="icons">
+          <li className="icons-list">
               <a href=""><FontAwesomeIcon icon='id-card-alt' />
-              <span>Contact Us</span></a>
+              <span className="icons">Contact Us</span></a>
           </li>
         </ul>
       </div>
@@ -81,24 +81,26 @@ function App() {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
           Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+        </div>
+        <div className="text-content">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor Eget egestas purus viverra accumsan in nisl nisi scelerisque eu. Elit ut aliquam purus sit amet luctus venenatis lectus. Vitae proin sagit.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
           Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </div>
-        <div classNameclassName="text-content">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor Eget egestas purus viverra accumsan in nisl nisi scelerisque eu. Elit ut aliquam purus sit amet luctus venenatis lectus. Vitae proin sagit.
-          At lectus urna duis convallis convallis tellus. Hac habitasse platea dictumst quisque. Sed viverra ipsum nunc aliquet bibendum enim. Quis imperdiet massa tincidunt nunc pulvinar sapien. 
-        </div>
-        <div classNameclassName="text-content">
+        <div className="text-content">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pharetra massa massa ultricies mi quis hendrerit. Sed adipiscing diam donec adipiscing tristique risus nec feugiat in.
-          Ut diam quam nulla porttitor massa id. Consectetur adipiscing elit duis tristique sollicitudin. Dui accumsan sit amet nulla facilisi morbi. Lacus vestibulum sed arcu non odio euismod lacinia.
         </div>
       </div>
-      <div classNameclassName="content-container">
-        <div classNameclassName="flip-card">
-          <div classNameclassName="flip-card-inner">
-            <div classNameclassName="flip-card-front">
+      <hr/>
+      <div className="content-container">
+        <div className="flip-card">
+          <div className="flip-card-inner">
+            <div className="flip-card-front">
               <h1>Neil Kenneth A. Genotiva</h1>
             </div>
-            <div classNameclassName="flip-card-back">
+            <div className="flip-card-back">
               <h1>Handsome</h1> 
               <p>Friendly</p> 
               <p>Boy Next Door</p>
